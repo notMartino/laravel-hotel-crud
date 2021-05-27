@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Employees DB</title>
 
+    <script src="https://kit.fontawesome.com/2e0cc00556.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="{{asset('/css/app.css')}}">
 </head>
 <body>

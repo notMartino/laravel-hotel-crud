@@ -30,7 +30,25 @@ main{
             padding: 2px 0;
             margin-bottom: 5px;
             border-bottom: 1px solid black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            a{
+                font-weight: bold;
+                color:steelblue;
+                text-shadow: 0 0 1px blue;
+            }
+
+            .icon{
+                text-shadow: 1px 1px 0 blue;
+                font-size: 20px;
+            }
+            .icon.delete{
+                color: red;
+            }
+            .icon.edit{
+                color:saddlebrown;
+            }
         }
     }
 }
-

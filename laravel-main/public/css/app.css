@@ -30,5 +30,27 @@ main .employees-list li {
   padding: 2px 0;
   margin-bottom: 5px;
   border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .employees-list li a {
+  font-weight: bold;
+  color: steelblue;
+  text-shadow: 0 0 1px blue;
+}
+
+main .employees-list li .icon {
+  text-shadow: 1px 1px 0 blue;
+  font-size: 20px;
+}
+
+main .employees-list li .icon.delete {
+  color: red;
+}
+
+main .employees-list li .icon.edit {
+  color: saddlebrown;
 }
 

@@ -17,4 +17,12 @@ class MainController extends Controller
 
         return view('pages.employee', compact('employee'));
     }
+
+    public function deleteEmployee($id){
+        $employee = Employee::findOrFail($id);
+
+        $employee -> delete();
+
+        return redirect() -> route('indexLink');
+    }
 }

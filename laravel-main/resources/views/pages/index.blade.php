@@ -13,6 +13,15 @@
                     <a href="{{route('employeeLink', $employee -> id)}}">
                         {{$employee -> firstname}} {{$employee -> lastname}}
                     </a>
+
+                    <div>
+                        <a href="{{route('deleteEmployeeLink', $employee -> id)}}" class="icon delete">
+                            <i class="fas fa-times-circle"></i>
+                        </a>
+                        <a href="" class="icon edit">
+                            <i class="fas fa-pencil-alt"></i>
+                        </a>
+                    </div>
                 </li>
             @endforeach
         </ul>

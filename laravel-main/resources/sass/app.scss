@@ -1,0 +1,34 @@
+//Proprietà generali
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+@mixin centering($padTop, $padBot) {
+    padding: $padTop 10% $padBot;
+}
+
+header{
+    @include centering(20px, 20px);
+    display: flex;
+    align-items: center;
+    h2{
+        margin-right: 40px;
+    }
+}
+
+main{
+    @include centering(10px, 10px);
+    .employees-list{
+        li{
+            margin-bottom: 8px;
+        }
+    }
+}
+

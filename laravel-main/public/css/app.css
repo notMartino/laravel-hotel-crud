@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  padding: 20px 10% 20px;
+  display: flex;
+  align-items: center;
+}
+
+header h2 {
+  margin-right: 40px;
+}
+
+main {
+  padding: 10px 10% 10px;
+}
+
+main .employees-list li {
+  margin-bottom: 8px;
+}
+

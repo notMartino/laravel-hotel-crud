@@ -10,7 +10,9 @@
             </li>
             @foreach ($employees as $employee)
                 <li>
-                    --- {{$employee -> firstname}} {{$employee -> lastname}}
+                    <a href="{{route('employeeLink', $employee -> id)}}">
+                        {{$employee -> firstname}} {{$employee -> lastname}}
+                    </a>
                 </li>
             @endforeach
         </ul>

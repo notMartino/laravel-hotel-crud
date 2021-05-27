@@ -27,6 +27,8 @@ main {
 }
 
 main .employees-list li {
-  margin-bottom: 8px;
+  padding: 2px 0;
+  margin-bottom: 5px;
+  border-bottom: 1px solid black;
 }
 

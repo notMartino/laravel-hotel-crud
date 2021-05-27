@@ -12,4 +12,9 @@ class MainController extends Controller
 
         return view('pages.index', compact('employees'));
     }
+    public function employeeView($id){
+        $employee = Employee::findOrFail($id);
+
+        return view('pages.employee', compact('employee'));
+    }
 }

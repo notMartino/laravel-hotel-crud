@@ -18,7 +18,7 @@
                         <a href="{{route('deleteEmployeeLink', $employee -> id)}}" class="icon delete">
                             <i class="fas fa-times-circle"></i>
                         </a>
-                        <a href="" class="icon edit">
+                        <a href="{{route('editEmployeeLink', $employee -> id)}}" class="icon edit">
                             <i class="fas fa-pencil-alt"></i>
                         </a>
                     </div>
